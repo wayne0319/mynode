@@ -1,0 +1,29 @@
+*::selection {
+  background-color: greenyellow;
+}
+
+input:focus {
+  color: red;
+}
+
+textarea:hover {
+  color: brown;
+}
+
+/* p::before {
+  content: "♥";
+} */
+
+h1::after {
+  content: "\2186";
+  color: aqua;
+}
+
+/* p::first-letter {
+  font-size: 2.5rem;
+  color: red;
+} */
+
+p::first-letter {
+  font-size: 3rem;
+}
